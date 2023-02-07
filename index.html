@@ -1,0 +1,51 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1" />
+       
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+       <title>Restaurant ordering app</title>
+    </head>
+    
+    <body>
+        <div id='blur'>
+            <header>
+                <div class="intro">
+                    <h1>Jimmy's Diner</h1>
+                    <p>The best burgers and pizzas in town.</p>
+                </div>
+            </header>
+            
+            <main class="menu-items" id="menu-items">
+                    <!-- menu items here -->
+            </main>
+            
+            <h2 id='your-order'></h2>
+            
+            <section class="ordered-items" id="ordered-items">
+                    <!-- ordered items here -->
+            </section>
+            
+            <p id="total-price"></p>
+        </div>
+
+        
+        <section class="modal" id="modal">
+            <h2 class="modal-heading">Enter card details</h2>
+            <form id="pay-form">
+                <input type="text" placeholder="Enter your name" name="name" required>
+                <input type="text" placeholder="Enter card number" required>
+                <input type="text" placeholder="Enter CVV" required>
+                <button type="submit" id="pay-btn">Pay</button>
+            </form>
+        </section>
+        
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+
