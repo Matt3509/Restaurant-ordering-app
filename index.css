@@ -95,6 +95,7 @@ button:focus {
 .menuItem {
     display: flex;
     justify-content: space-between;
+    font-size: 1rem;
     align-items: center;
     max-width: 100%;
     border-bottom: 1px solid #D2D2D2;
